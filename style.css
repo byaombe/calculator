@@ -7,7 +7,7 @@ body {
 
 #wholecalc {
     background-color: #90b4c7;
-    height: 600px;
+    height: 530px;
     width: 400px;
     border-radius: 20px;
     display: flex;
@@ -17,7 +17,7 @@ body {
 }
 #calcbody {
 
-    height: 600px;
+    height: 500px;
     width: 400px;
 display: flex;
 align-items: center;
@@ -28,7 +28,7 @@ gap: 5px;
 
 .display {
     background-color: #0e3748;
-    height: 100px;
+    height: 90px;
     width: 390;
     border-radius: 20px;
     margin-top: 2%;
@@ -40,7 +40,7 @@ display: flex;
 flex-direction: column;
 gap: 15px;
 background-color: #0e3748;
-height: 490px;
+height: 430px;
 width: 100px;
 border-radius: 20px;
 align-items: center;
@@ -58,21 +58,21 @@ justify-content: center;
 
 #numbers {
     display: flex;
-  
+    flex-wrap: wrap ;
     background-color: #4f9fc2;
-    height: 490px;
-    width: 275px;
+    height: 430px;
+    width: 290px;
     border-radius: 20px;
     align-items: center;
     justify-content: center;
-    gap: 3px;
 }
 .numbers button {
+    margin: 0;
     background-color: #0e3748;
    font-size: 16px;
  height: 90px;
- width: 80px;
- border: 2px solid #6fcecb;
+ width: 90px;
+ border: 5px solid #30a5d7;
  border-radius: 10px;
  color: aliceblue;
 
